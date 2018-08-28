@@ -2,4 +2,5 @@
 This is the meeting planner.
 where the admin fix the meeting with user.
 This is the link where you can see the meeting planner 
-meetingplanner.gajalportfolio.xyz
+
+Link :- http://meetingplanner.gajalportfolio.xyz/
