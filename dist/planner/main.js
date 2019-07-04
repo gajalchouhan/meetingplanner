@@ -1227,7 +1227,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var MeetingService = /** @class */ (function () {
     function MeetingService(http) {
         this.http = http;
-        this.baseUrl = 'http://meetingapi.gajalportfolio.xyz/api/v1/meeting';
+        this.baseUrl = 'https://meetingapi.gajalportfolio.xyz/api/v1/meeting';
         this.events = [];
         console.log('meeting Service works');
     }
@@ -1415,7 +1415,7 @@ var SocketService = /** @class */ (function () {
     function SocketService(http) {
         var _this = this;
         this.http = http;
-        this.url = 'http://meetingapi.gajalportfolio.xyz/';
+        this.url = 'https://meetingapi.gajalportfolio.xyz/';
         //-----EMIT EVENTS
         this.disconnectSocket = function () {
             _this.socket.disconnect();
@@ -1570,7 +1570,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var UserService = /** @class */ (function () {
     function UserService(http) {
         this.http = http;
-        this.baseUrl = 'http://meetingapi.gajalportfolio.xyz/api/v1/users';
+        this.baseUrl = 'https://meetingapi.gajalportfolio.xyz/api/v1/users';
         this.getUserInfoFromLocalstorage = function () {
             return JSON.parse(localStorage.getItem('userInfo'));
         }; // end getUserInfoFromLocalstorage

@@ -11,7 +11,7 @@ import 'rxjs/add/operator/do';
 })
 export class MeetingService {
 
-  public baseUrl ='http://meetingapi.gajalportfolio.xyz/api/v1/meeting';
+  public baseUrl ='https://meetingapi.gajalportfolio.xyz/api/v1/meeting';
 
   constructor(public http : HttpClient) {
     console.log('meeting Service works');

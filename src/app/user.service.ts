@@ -12,7 +12,7 @@ import 'rxjs/add/operator/do';
 })
 export class UserService {
 
-  public baseUrl = 'http://meetingapi.gajalportfolio.xyz/api/v1/users';
+  public baseUrl = 'https://meetingapi.gajalportfolio.xyz/api/v1/users';
 
   constructor(private http: HttpClient) {
     console.log("user service was called");

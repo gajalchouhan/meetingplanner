@@ -13,7 +13,7 @@ import { HttpErrorResponse, HttpParams } from "@angular/common/http";
 
 export class SocketService {
 
-  private url = 'http://meetingapi.gajalportfolio.xyz/';
+  private url = 'https://meetingapi.gajalportfolio.xyz/';
 
   private socket;
 
