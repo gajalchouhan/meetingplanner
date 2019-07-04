@@ -1,13 +1,33 @@
-.head{
-    font-family : italic;
-    color:black;
-    font-size : 1.5rem;
+.head {
+    font-family: italic;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .card {
-    margin-top: 6px;
+    margin-top: 1vh;
     border-color: black;
     box-shadow: 5px 10px 8px #888888;
 }
 
+.card-header {
+    background-color: #244093;
+    color: white;
+    font-family: open sans-serif;
+    text-transform: capitalize;
+}
 
+.userName {
+    font-family: open sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#244093, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-fluid {
+    padding-top: 2vh;
+}

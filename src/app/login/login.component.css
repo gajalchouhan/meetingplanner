@@ -1,55 +1,64 @@
-.ng-valid[required], .ng-valid.required  {
-    border-left: 5px solid #42A948; /* green */
-  }
-  
-  .ng-invalid:not(form)  {
-    border-left: 5px solid #a94442; /* red */
-  }
+.loginPage {
+  padding: 15vh 0vw;
+}
 
-  .form-container {
-    padding: 1rem 2rem;
-    flex: 1;
-    font-family: 'Source Sans Pro', sans-serif;
-  } 
-  .form-container.p {
-      color: balck !important;
-    }
-  .form-container.h1 {
-      font-size: 1.45rem;
-      margin: 0;
-    }
-  .form-group-prop{
-    width: 50%;
-    
-  }
+.loginPage div {}
 
-  .wrapper {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+.ng-valid[required], .ng-valid.required {
+  border-left: 5px solid #42A948;
+  /* green */
+}
 
-  .input {
-    outline: none;
-    border: 2px solid hsl(0, 0%, 95%);
-    background: hsl(0, 0%, 95%);
-    border-radius: 3px;
-    padding: 0.5rem 0.75rem;
-    transition: all .2s ease-in-out;
-  }
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442;
+  /* red */
+}
 
-  .label {
-    margin: 0 0 2px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
-  }
+.form-container {
+  padding: 1rem 2rem;
+  flex: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-  }
+.form-container.p {
+  color: balck !important;
+}
 
+.form-container.h1 {
+  font-size: 1.45rem;
+  margin: 0;
+}
+
+.form-group-prop {
+  width: 50%;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  outline: none;
+  border: 2px solid hsl(0, 0%, 95%);
+  background: hsl(0, 0%, 95%);
+  border-radius: 3px;
+  padding: 0.5rem 0.75rem;
+  transition: all .2s ease-in-out;
+}
+
+.label {
+  margin: 0 0 2px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 
 .forgot-password-link {
   color: rgb(228, 13, 13) !important;
@@ -63,15 +72,15 @@
   margin-top: 3px;
 }
 
-.signup{
+.signup {
   color: rgb(85, 202, 30);
 }
 
 button {
   border: none;
   color: white;
-  padding : 2px;
-  margin-left : 2px;
+  padding: 2px;
+  margin-left: 2px;
   font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
@@ -82,19 +91,34 @@ button {
   transition: all .2s ease-in-out;
 }
 
-.back{
-  background-color :#0c3a38;
-  opacity : 0.7;
-  color:white;
-  height:400px;
-  width : 100%;
-  padding : 2px;
+.back {
+  background: #403A3E;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #BE5869, #403A3E);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BE5869, #403A3E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.7;
+  color: white;
+  height: 400px;
+  width: 100%;
+  padding: 2px;
   font-family: italic;
   background-position: center;
-  background-repeat : no-repeat;
-  background-size : cover;
-  border-radius:10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
+
+.signIn {
+  padding: 5px 10px;
+  margin-right: 1vw;
+}
+
+.signUp {
+  padding: 5px 10px;
+}
+
 @media all and (max-width: 576px) {
   footer.p {
     padding: 1.5rem;
@@ -102,8 +126,8 @@ button {
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 0px){
-back {
-   background:none;
-}
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+  back {
+    background: none;
+  }
 }
